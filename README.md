@@ -23,8 +23,8 @@ The requirements for this implementation:
 ## How to Compile and Run
 
 ```bash
-g++ -std=c++17 -o spooler spooler.cpp
-./spooler
+g++ main.cpp -o main
+./main
 ```
 
 No external libraries needed. Works on any Linux or macOS terminal that supports ANSI escape codes.
