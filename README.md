@@ -245,15 +245,6 @@ A standard `std::queue` in C++ is a restricted wrapper. It intentionally hides e
 
 ---
 
-## File Structure
-
-```
-spooler.cpp    — entire program, single file
-README.md      — this file
-```
-
----
-
 ## Role Division
 
 The code is divided into four logical sections corresponding to four contributors. Each section is self-contained and depends only on the shared `deque<Job> q` global and the `Job` struct.
